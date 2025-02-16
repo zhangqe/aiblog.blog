@@ -2,7 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #3B82F6;
+  --primary-dark: #2563EB;
+  --secondary-color: #10B981;
+  --accent-color: #8B5CF6;
+  --background-light: #F9FAFB;
+  --text-primary: #111827;
+  --text-secondary: #4B5563;
+}
+
 body {
-  color: #171717;
-  background: #ffffff;
+  color: var(--text-primary);
+  background: var(--background-light);
+  font-family: 'Inter', sans-serif;
+}
+
+/* 添加平滑滚动效果 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 标题样式 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* 链接悬停效果 */
+a {
+  transition: all 0.2s ease-in-out;
+}
+
+/* 按钮样式 */
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* 卡片悬停效果 */
+.hover-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.hover-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 渐变背景 */
+.gradient-bg {
+  background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+}
+
+/* 玻璃态效果 */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* 博客图片样式 */
+.prose img {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 80vh;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.prose img:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* 图片容器样式 */
+.prose p:has(img) {
+  text-align: center;
+  margin: 2rem 0;
 }
