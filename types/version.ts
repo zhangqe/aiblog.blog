@@ -66,18 +66,18 @@ export const versionHistory: Version[] = [
     version: '0.0.4',
     date: '2024-02-15',
     title: 'Blog Management System',
-    description: '完成博客文章的增删改查功能',
+    description: 'Completed blog post CRUD functionality',
     category: 'feature',
     status: 'completed',
     features: [
-      '实现博客文章的创建功能',
-      '实现博客文章的编辑功能',
-      '实现博客文章的删除功能',
-      '添加文件系统持久化存储',
-      '优化数据刷新机制',
-      '修复路由冲突问题',
-      '添加 Markdown 编辑器支持',
-      '支持图片上传功能'
+      'Implemented blog post creation',
+      'Added blog post editing',
+      'Implemented post deletion',
+      'Added file system persistence',
+      'Optimized data refresh mechanism',
+      'Fixed routing conflicts',
+      'Added Markdown editor support',
+      'Implemented image upload functionality'
     ],
     relatedPages: ['/admin', '/blog']
   }
