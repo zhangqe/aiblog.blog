@@ -1,24 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Blog Platform
+
+A modern blog platform built with Next.js, featuring AI-powered features and a beautiful UI.
+
+## Features
+
+- 🎨 Modern and responsive design
+- 🔐 User authentication
+- 📝 Blog post creation and management
+- 🌙 Dark mode support
+- 🚀 Fast and SEO-friendly
+
+## Tech Stack
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- NextAuth.js for authentication
+- Framer Motion for animations
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/zhangqe/aiblog.blog.git
+   cd aiblog.blog
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo
+
+Visit the live demo at: [Your deployment URL]
+
+## License
+
+MIT License
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Learn More
 
