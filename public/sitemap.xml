@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 首页 -->
+  <url>
+    <loc>https://aiblog.blog/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 工具列表页 -->
+  <url>
+    <loc>https://aiblog.blog/tools</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 博客列表页 -->
+  <url>
+    <loc>https://aiblog.blog/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 动态页面的占位符注释 -->
+  <!-- 
+    博客文章详情页 (/blog/[slug]) 和工具教程页 (/tutorial/[slug]) 
+    需要在服务端动态生成，因为它们依赖于实际的文章和工具数据
+  -->
+</urlset> 
